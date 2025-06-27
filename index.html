@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🎮 Rob-lox – Play, Create & Explore</title>
+<meta name="description" content="Jump into Rob-lox! Create worlds, play games, and explore endless adventures with friends online! 🚀🧱">
+<meta name="keywords" content="Rob-lox – Play, play games, browser games, action games, puzzle games, racing games, strategy games, casual games, Roblox Online, io games">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://roblox-online.github.io/">
+<meta property="og:title" content="🎮 Rob-lox – Play, Create & Explore">
+<meta property="og:description" content="Jump into Rob-lox! Create worlds, play games, and explore endless adventures with friends online! 🚀🧱!">
+<meta property="og:image" content="https://yourwebsite.com/images/roblox-online.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://roblox-online.github.io/">
+<meta property="twitter:title" content="🎮 Rob-lox – Play, Create & Explore">
+<meta property="twitter:description" content="Jump into Rob-lox! Create worlds, play games, and explore endless adventures with friends online! 🚀🧱">
+<meta property="twitter:image" content="https://yourwebsite.com/images/roblox-online.png">
+
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<meta name="google-site-verification" content="G4_ZS2V7fKe0qG7qFf10BcQrviDa30C45aUYE6eLZd4" />
+
+<!-- Schema.org Markup -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Game",
+  "name": "Roblox Online",
+  "applicationCategory": "WebGame",
+  "operatingSystem": "Browser",
+  "genre": "Arcade",
+  "url": "https://roblox-online.github.io//",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.6",
+    "reviewCount": "130",
+    "bestRating": "5",
+    "worstRating": "1"
+  }
+}
+</script>
+
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Header/Navigation -->
+<header>
+  <div class="container">
+      <div class="logo">
+          <h1>Roblox Online</h1>
+      </div>
+      <nav>
+<ul>
+    <li class="dropdown">
+        <a href="#" class="nav-link">Genres <i class="fas fa-caret-down"></i></a>
+        <div class="dropdown-content">
+            <a href="puzzle.html">Puzzle</a>
+            <a href="match.html">Match</a>
+            <a href="action.html">Action</a>
+            <a href="adventure.html">Adventure</a>
+            <a href="strategy.html">Strategy</a>
+            <a href="simulation.html">Simulation</a>
+            <a href="racing.html">Racing</a>
+            <a href="sports.html">Sports</a>
+            <a href="arcade.html">Arcade</a>
+            <a href="casual.html">Casual</a>
+        </div>
+    </li>
+    <li><a href="about.html" class="nav-link">About</a></li>
+    <li><a href="contact.html" class="nav-link">Contact</a></li>
+    <li class="dropdown">
+        <a href="#" class="nav-link">Legal <i class="fas fa-caret-down"></i></a>
+        <div class="dropdown-content">
+            <a href="disclaimer.html">Disclaimer</a>
+            <a href="terms.html">Terms & Conditions</a>
+            <a href="privacy.html">Privacy Policy</a>
+        </div>
+    </li>
+</ul>
+</nav>
+      <div class="mobile-menu-toggle">
+          <i class="fas fa-bars"></i>
+      </div>
+  </div>
+</header>
+
+<!-- Main Content -->
+<main>
+  <div class="container">
+      <div class="hero-section">
+          <div class="game-container">
+              <div class="game-wrapper">
+                  <div class="game-content">
+                      <div id="game-frame" class="game-frame">
+                          <!-- Game iframe will be loaded here when Play Now is clicked -->
+                      </div>
+                      <div id="game-overlay" class="game-overlay">
+                          <div class="game-preview">
+                              <img src="images/roblox-online.jpeg" alt="Roblox Online Preview" class="preview-image">
+                              <div class="blur-overlay"></div>
+                          </div>
+                          <button id="play-now-btn" class="play-now-btn">
+                              <i class="fas fa-play-circle"></i> Play Now
+                          </button>
+                      </div>
+                  </div>
+                  <div class="game-footer">
+                      <h3>Roblox Online</h3>
+                      <button class="fullscreen-btn"><i class="fas fa-expand"></i> Fullscreen</button>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="hot-games-container">
+              <h3 class="hot-games-title">Hot Games</h3>
+              <div class="hot-games-grid" id="hot-games-grid">
+  <!-- Hot games will be dynamically loaded by JavaScript -->
+</div>
+          </div>
+      </div>
+
+      <!-- Popular Games Section -->
+      <div class="popular-games-section">
+          <h2 class="section-title">Popular Games</h2>
+          <div class="popular-games-grid" id="popular-games-grid">
+              <!-- Popular games will be loaded here by JavaScript -->
+          </div>
+      </div>
+
+      <!-- SEO Content Area -->
+      <div class="seo-article-section container">
+        <h2 class="section-title">Unleash Your Creativity: Explore Roblox Online</h2>
+        <p>Welcome to the ultimate destination for free online games, featuring the expansive world of <strong>Roblox Online</strong>! Dive into a universe of endless possibilities where you can create your own games, explore millions of user-generated experiences, and connect with friends. From adventure and role-playing to simulations and combat, Roblox offers a diverse range of genres built by a global community of creators. Our platform provides a seamless and lag-free experience, ensuring you can enjoy Roblox anytime, anywhere, without the need for downloads or installations.</p>
+        
+        <p>Whether you're a seasoned builder or a new player, our site provides the best environment to play Roblox. Discover popular experiences, learn how to design your own virtual worlds, and find tips to master various game modes. Beyond Roblox, explore our vast collection of other popular .io games, action-packed adventures, mind-bending puzzles, and thrilling racing challenges. We're constantly updating our library with new and exciting titles to keep the fun going!</p>
+        
+        <p>Join our community of players and experience the thrill of creativity and social gaming. Our mission is to provide a safe, accessible, and enjoyable gaming platform for everyone. Get ready to build, play, and imagine with Roblox Online!</p>
+    </div>
+
+      <!-- Games by Category Section -->
+      <div class="games-section">
+  <h2 class="section-title">Games by Category</h2>
+
+  <!-- Puzzle Games -->
+  <div class="category-section" id="puzzle">
+      <h3 class="category-title">Puzzle</h3>
+      <div class="games-grid" id="puzzle-grid">
+          <!-- Games will be loaded here by JavaScript -->
+      </div>
+      <div class="load-more-container">
+          <button class="load-more-btn" data-category="puzzle">Load More</button>
+      </div>
+  </div>
+
+  <!-- Match Games -->
+  <div class="category-section" id="match">
+      <h3 class="category-title">Match</h3>
+      <div class="games-grid" id="match-grid">
+          <!-- Games will be loaded here by JavaScript -->
+      </div>
+      <div class="load-more-container">
+          <button class="load-more-btn" data-category="match">Load More</button>
+      </div>
+  </div>
+
+  <!-- Action Games -->
+  <div class="category-section" id="action">
+      <h3 class="category-title">Action</h3>
+      <div class="games-grid" id="action-grid">
+          <!-- Games will be loaded here by JavaScript -->
+      </div>
+      <div class="load-more-container">
+          <button class="load-more-btn" data-category="action">Load More</button>
+      </div>
+  </div>
+
+  <!-- Adventure Games -->
+  <div class="category-section" id="adventure">
+      <h3 class="category-title">Adventure</h3>
+      <div class="games-grid" id="adventure-grid">
+          <!-- Games will be loaded here by JavaScript -->
+      </div>
+      <div class="load-more-container">
+          <button class="load-more-btn" data-category="adventure">Load More</button>
+      </div>
+  </div>
+
+  <!-- Strategy Games -->
+  <div class="category-section" id="strategy">
+      <h3 class="category-title">Strategy</h3>
+      <div class="games-grid" id="strategy-grid">
+          <!-- Games will be loaded here by JavaScript -->
+      </div>
+      <div class="load-more-container">
+          <button class="load-more-btn" data-category="strategy">Load More</button>
+      </div>
+  </div>
+
+  <!-- Simulation Games -->
+  <div class="category-section" id="simulation">
+      <h3 class="category-title">Simulation</h3>
+      <div class="games-grid" id="simulation-grid">
+          <!-- Games will be loaded here by JavaScript -->
+      </div>
+      <div class="load-more-container">
+          <button class="load-more-btn" data-category="simulation">Load More</button>
+      </div>
+  </div>
+
+  <!-- Racing Games -->
+  <div class="category-section" id="racing">
+      <h3 class="category-title">Racing</h3>
+      <div class="games-grid" id="racing-grid">
+          <!-- Games will be loaded here by JavaScript -->
+      </div>
+      <div class="load-more-container">
+          <button class="load-more-btn" data-category="racing">Load More</button>
+      </div>
+  </div>
+
+  <!-- Sports Games -->
+  <div class="category-section" id="sports">
+      <h3 class="category-title">Sports</h3>
+      <div class="games-grid" id="sports-grid">
+          <!-- Games will be loaded here by JavaScript -->
+      </div>
+      <div class="load-more-container">
+          <button class="load-more-btn" data-category="sports">Load More</button>
+      </div>
+  </div>
+
+  <!-- Arcade Games -->
+  <div class="category-section" id="arcade">
+      <h3 class="category-title">Arcade</h3>
+      <div class="games-grid" id="arcade-grid">
+          <!-- Games will be loaded here by JavaScript -->
+      </div>
+      <div class="load-more-container">
+          <button class="load-more-btn" data-category="arcade">Load More</button>
+      </div>
+  </div>
+
+  <!-- Casual Games -->
+  <div class="category-section" id="casual">
+      <h3 class="category-title">Casual</h3>
+      <div class="games-grid" id="casual-grid">
+          <!-- Games will be loaded here by JavaScript -->
+      </div>
+      <div class="load-more-container">
+          <button class="load-more-btn" data-category="casual">Load More</button>
+      </div>
+  </div>
+</div>
+  </div>
+</main>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+      <div class="footer-content">
+          <div class="footer-logo">
+              <h2>Roblox Online</h2>
+          </div>
+          <div class="footer-links">
+              <h3>Quick Links</h3>
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+          </div>
+          <div class="footer-categories">
+  <h3>Game Categories</h3>
+  <ul>
+      <li><a href="puzzle.html">Puzzle</a></li>
+      <li><a href="match.html">Match</a></li>
+      <li><a href="action.html">Action</a></li>
+      <li><a href="adventure.html">Adventure</a></li>
+      <li><a href="strategy.html">Strategy</a></li>
+      <li><a href="simulation.html">Simulation</a></li>
+      <li><a href="racing.html">Racing</a></li>
+      <li><a href="sports.html">Sports</a></li>
+      <li><a href="arcade.html">Arcade</a></li>
+      <li><a href="casual.html">Casual</a></li>
+  </ul>
+</div>
+          <div class="footer-social">
+              <h3>Follow Us</h3>
+              <div class="social-icons">
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+              </div>
+          </div>
+      </div>
+      <div class="footer-bottom">
+          <p>&copy; 2025 Roblox Online. All rights reserved.</p>
+      </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="seo-title">Play Game - Crossy Road</title>
+    <meta name="description" id="seo-description" content="Play exciting online games for free on Crossy Road Game.">
+    <meta name="keywords" id="seo-keywords" content="online games, free games, browser games">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="game">
+    <meta property="og:url" id="og-url" content="https://yourwebsite.com/games/game-name.html">
+    <meta property="og:title" id="og-title" content="Play Game - Crossy Road">
+    <meta property="og:description" id="og-description" content="Play exciting online games for free on Crossy Road Game.">
+    <meta property="og:image" id="og-image" content="https://yourwebsite.com/images/placeholder.svg?height=120&width=200">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" id="twitter-url" content="https://yourwebsite.com/games/game-name.html">
+    <meta property="twitter:title" id="twitter-title" content="Play Game - Crossy Road">
+    <meta property="twitter:description" id="twitter-description" content="Play exciting online games for free on Crossy Road Game.">
+    <meta property="twitter:image" id="twitter-image" content="https://yourwebsite.com/images/placeholder.svg?height=120&width=200">
+
+    <!-- Schema.org Markup (will be dynamically updated by JS) -->
+    <script type="application/ld+json" id="game-schema">
+    {
+      "@context": "http://schema.org",
+      "@type": "VideoGame",
+      "name": "Game Title",
+      "description": "Game Description",
+      "image": "https://yourwebsite.com/images/placeholder.svg?height=120&width=200",
+      "url": "https://yourwebsite.com/games/game-name.html",
+      "genre": "ArcadeGame",
+      "operatingSystem": "Web Browser",
+      "applicationCategory": "Game",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "reviewCount": "100"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Fireboy and Watergirl"
+      }
+    }
+    </script>
+
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../game-detail.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header/Navigation -->
+  <header>
+      <div class="container">
+          <div class="logo">
+              <h1><a href="../" class="logo-link">Fireboy and Watergirl</a></h1>
+          </div>
+          <nav>
+    <ul>
+        <li class="dropdown">
+            <a href="#" class="nav-link">Genres <i class="fas fa-caret-down"></i></a>
+            <div class="dropdown-content">
+                <a href="../puzzle.html">Puzzle</a>
+                <a href="../match.html">Match</a>
+                <a href="../action.html">Action</a>
+                <a href="../adventure.html">Adventure</a>
+                <a href="../strategy.html">Strategy</a>
+                <a href="../simulation.html">Simulation</a>
+                <a href="../racing.html">Racing</a>
+                <a href="../sports.html">Sports</a>
+                <a href="../arcade.html">Arcade</a>
+                <a href="../casual.html">Casual</a>
+            </div>
+        </li>
+        <li><a href="../about.html" class="nav-link">About</a></li>
+        <li><a href="../contact.html" class="nav-link">Contact</a></li>
+        <li class="dropdown">
+            <a href="#" class="nav-link">Legal <i class="fas fa-caret-down"></i></a>
+            <div class="dropdown-content">
+                <a href="../disclaimer.html">Disclaimer</a>
+                <a href="../terms.html">Terms & Conditions</a>
+                <a href="../privacy.html">Privacy Policy</a>
+            </div>
+        </li>
+    </ul>
+</nav>
+          <div class="mobile-menu-toggle">
+              <i class="fas fa-bars"></i>
+          </div>
+      </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+      <div class="container">
+          <div class="game-detail-container">
+              <div class="game-detail-header">
+                  <h1 id="game-title">Game Title</h1>
+                  <div class="game-actions">
+                      <button class="action-btn like-btn"><i class="far fa-heart"></i> Like</button>
+                      <button class="action-btn share-btn"><i class="fas fa-share-alt"></i> Share</button>
+                  </div>
+              </div>
+              
+              <div class="game-detail-layout">
+                  <div class="game-container">
+                      <div class="game-wrapper">
+                          <div class="game-content">
+                              <div id="game-frame" class="game-frame">
+                                  <!-- Game iframe will be loaded here -->
+                              </div>
+                              <div id="game-overlay" class="game-overlay">
+                                  <div class="game-preview">
+                                      <img src="https://sjc.microlink.io/bxCNAJNoG6OkyKg1a2kOMISbZYplafFGZemwMc0AXwOWcJra9qezJXnTGsGtYMzDcHUELE1lsjU8DsTSrBQQRg.jpeg" alt="Game Preview" class="preview-image" id="game-preview-image">
+                                      <div class="blur-overlay"></div>
+                                  </div>
+                                  <button id="play-now-btn" class="play-now-btn">
+                                      <i class="fas fa-play-circle"></i> Play Now
+                                  </button>
+                              </div>
+                          </div>
+                          <div class="game-footer">
+                              <h3 id="game-title-footer">Game Title</h3>
+                              <button class="fullscreen-btn"><i class="fas fa-expand"></i> Fullscreen</button>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="hot-games-container">
+                      <h3 class="hot-games-title">Hot Games</h3>
+                      <div class="hot-games-grid" id="detail-hot-games-grid">
+                          <!-- Hot games will be dynamically loaded by JavaScript -->
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="game-info">
+                  <div class="game-description">
+                      <h2>About This Game</h2>
+                      <p id="game-description">This is an exciting game where you can test your skills and have fun. The objective is to score as many points as possible while avoiding obstacles.</p>
+                  </div>
+                  
+                  <div class="game-controls">
+                      <h2>Controls</h2>
+                      <ul>
+                          <li><span class="key">W</span> or <span class="key">↑</span> - Move Up</li>
+                          <li><span class="key">A</span> or <span class="key">←</span> - Move Left</li>
+                          <li><span class="key">S</span> or <span class="key">↓</span> - Move Down</li>
+                          <li><span class="key">D</span> or <span class="key">→</span> - Move Right</li>
+                          <li><span class="key">Space</span> - Action / Jump</li>
+                      </ul>
+                  </div>
+              </div>
+              
+              <div class="related-games">
+                  <h2>You Might Also Like</h2>
+                  <div class="related-games-grid">
+                      <!-- Related games will be dynamically added here -->
+                  </div>
+              </div>
+          </div>
+      </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+      <div class="container">
+          <div class="footer-content">
+              <div class="footer-logo">
+                  <h2>Fireboy and Watergirl</h2>
+              </div>
+              <div class="footer-links">
+                  <h3>Quick Links</h3>
+                  <ul>
+                      <li><a href="../index.html">Home</a></li>
+                      <li><a href="../about.html">About Us</a></li>
+                      <li><a href="../contact.html">Contact Us</a></li>
+                  </ul>
+              </div>
+              <div class="footer-categories">
+    <h3>Game Categories</h3>
+    <ul>
+        <li><a href="../puzzle.html">Puzzle</a></li>
+        <li><a href="../match.html">Match</a></li>
+        <li><a href="../action.html">Action</a></li>
+        <li><a href="../adventure.html">Adventure</a></li>
+        <li><a href="../strategy.html">Strategy</a></li>
+        <li><a href="../simulation.html">Simulation</a></li>
+        <li><a href="../racing.html">Racing</a></li>
+        <li><a href="../sports.html">Sports</a></li>
+        <li><a href="../arcade.html">Arcade</a></li>
+        <li><a href="../casual.html">Casual</a></li>
+    </ul>
+</div>
+              <div class="footer-social">
+                  <h3>Follow Us</h3>
+                  <div class="social-icons">
+                      <a href="#"><i class="fab fa-facebook"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-youtube"></i></a>
+                  </div>
+              </div>
+          </div>
+          <div class="footer-bottom">
+              <p>&copy; 2025 Fireboy and Watergirl. All rights reserved.</p>
+          </div>
+      </div>
+  </footer>
+
+  <script src="../game-detail.js"></script>
+</body>
+</html>
